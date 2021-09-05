@@ -1,6 +1,7 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
+import Img_9 from '../images/img-9.jpg'
 
 function Cards() {
     return (
@@ -10,7 +11,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                            src='../images/img-9.jpg' 
+                            src={Img_9} 
                             text='Explore the hidden waterfall deep inside the Amazon jungle'
                             label='Adventure'
                             path='/services' />
